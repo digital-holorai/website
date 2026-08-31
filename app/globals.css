@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+:root {
+  /* Base */
+  --paper: #ffffff;
+  --paper-alt: #f1efe9;
+  --ink: #14161b;
+  --ink-soft: #52565f;
+  --line: #e2dfd6;
+
+  /* Brand */
+  --indigo: #372ee0;
+  --indigo-deep: #241a9e;
+  --violet: #7a4ae0;
+  --rose: #e05a8f;
+  --amber: #e0a53a;
+
+  --font-display: "Avenir Next", "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Inter", "Segoe UI", ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid var(--indigo);
+  outline-offset: 3px;
+}
+
+.spectrum-seam {
+  background: linear-gradient(
+    100deg,
+    var(--indigo) 0%,
+    var(--violet) 42%,
+    var(--rose) 72%,
+    var(--amber) 100%
+  );
+}
+
+.container-px {
+  padding-left: clamp(1.25rem, 5vw, 5rem);
+  padding-right: clamp(1.25rem, 5vw, 5rem);
+}
