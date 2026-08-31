@@ -1,0 +1,32 @@
+# HOLORAI PVT LTD
+
+HOLORAI builds custom software, AI integrations, automation systems, AI copilots, IoT workflows, robotics software, and technical prototypes for businesses and individuals.
+
+Canonical site: https://holorai.com/
+Contact: info@holorai.com
+Sitemap: https://holorai.com/sitemap.xml
+Robots: https://holorai.com/robots.txt
+
+## Important Pages
+
+- Home: https://holorai.com/
+- Services: https://holorai.com/services
+- Portfolio: https://holorai.com/portfolio
+- Demos: https://holorai.com/demos
+- Pricing: https://holorai.com/pricing
+- About: https://holorai.com/about
+- Blog archive: https://holorai.com/blog
+
+## Core Topics
+
+- Custom software design and delivery
+- AI integration and production AI systems
+- Workflow automation and AI copilots
+- Computer vision and 3D computer vision
+- NLP, LLM, VLM, VLA, and VLNA systems
+- Embodied AI, robotics, medical robotics, and MLOps
+- IoT, quadcopter design, Fusion 360, Autodesk workflows, and special effects pipelines
+
+## Blog Content
+
+The blog contains server-rendered article pages under https://holorai.com/blog/{slug}. Each article has a canonical URL, title, description, author, date, keywords, Open Graph metadata, and BlogPosting JSON-LD.
